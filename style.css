@@ -1,21 +1,73 @@
-p {
-    text-align: center;
-    font-size: 30px;
-    font-family: 'Source Sans Pro', sans-serif;
-}
-
-
-.fit-picture {
-    width: 250px;
-}
-
-div.container {
-    width: 960px;
-    padding: auto;
+.active {
     background-color: grey;
-    margin: auto;
 }
 
+li a:hover:not(.active) {
+    background-color: #111;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li:last-child {
+    border-right: none;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+    float: right;
+    border-right: 2px solid #bbb;
+}
+
+
+
+
+img {
+    float: left;
+    padding: 15px;
+}
+
+#secondRow {
+    float: left;
+}
+
+
+h1 {
+    font-family: 'Patua One', cursive;
+}
+
+
+p {
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    line-height: 30px;
+    padding-right: 15px;
+    padding-left: 15px;
+    width: 940px;
+}
+.fit-picture {
+    width: 400px;
+}
+
+
+
+#container {
+    margin: auto;
+    width: 960px;
+    background-color: #ffffff;
+}
 body {
-    background-image: url("/assets/images/luca-bravo-217276-unsplash.jpg");
+    background-image: url(assets/images/white-waves.png);
 }
