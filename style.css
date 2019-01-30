@@ -64,6 +64,8 @@ p {
 
 
 #container {
+    border-color: #111;
+    border-width: 1px;
     margin: auto;
     width: 960px;
     background-color: #ffffff;
