@@ -1,0 +1,21 @@
+p {
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+
+.fit-picture {
+    width: 250px;
+}
+
+div.container {
+    width: 960px;
+    padding: auto;
+    background-color: grey;
+    margin: auto;
+}
+
+body {
+    background-image: url("/assets/images/luca-bravo-217276-unsplash.jpg");
+}
